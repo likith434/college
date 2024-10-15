@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main() ( inta[10]n,key.i, low high,res,
+int binsearch(int a[10]int key int low.int highk drscr();
+printf("nin enter the number of elements to be stored in the array \n\n"); scanf("%d",&n),
+printf("\n\n enter the array elements\n\n"); for(i=0;i<n;i++)
+scanf("%d",&a[i]);
+printf("nin enter the element to be searched \n\n" scanf("%d",&key
+low=0; high-n-1:
+res-binsearchla.key.low.high); if(res=-1)
+printf("\n\n element %d is not found \n\n",key),
+else
+printf("\n\n element %d is found at position %d \n\n",key,res+1);
+getch()
+1
+int hin searchțint a[10]int key int low.int high) ( int mid;
+if(low high)
+return -1;
+mid-low-high1/2: return(key=a[mid]? mid: key>a[mid]? binsearchta.key.mid+1.high): binsearch(a,key,low,mid-13)
+}
